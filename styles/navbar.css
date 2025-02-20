@@ -1,6 +1,10 @@
 nav {
   background-image: url(../assets/images/main-background.jpg);
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
@@ -23,10 +27,12 @@ button {
   cursor: pointer;
 }
 .logo {
-  height: 2.5rem;
+  height: 4.5rem;
 }
 .banner {
   background-image: url(../assets/images/main-background.jpg);
-  height: 100%;
   background-attachment: fixed;
+  height: 100vh;
+  object-fit: cover;
+  transform: translate(100);
 }

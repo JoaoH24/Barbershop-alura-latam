@@ -8,7 +8,7 @@ class NavBar extends HTMLElement {
       <nav>
         <div>
           <a href="./index.html">
-            <img src="/assets/icons/poste-de-barbero.png" alt="Logo empresarial" class="logo" />
+            <img src="/assets/images/Logo.png" alt="Logo empresarial" class="logo" />
           </a>
         </div>
         <div>
