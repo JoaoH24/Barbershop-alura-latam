@@ -1,0 +1,31 @@
+.service {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 17em;
+  height: 17em;
+  padding: 1.4rem;
+  background-color: transparent;
+  border-color: #ff6600;
+  border-width: 3.2px;
+  border-style: solid;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-service {
+  width: 4rem;
+}
+
+.name-service {
+  font-size: 1.14rem;
+  text-align: center;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.description-service {
+  margin: 0;
+  text-align: center;
+  font-size: 0.92rem;
+}

@@ -3,84 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="shortcut icon"
-      href="/assets/icons/poste-de-barbero.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="/src/styles/styles.css" />
-    <link rel="stylesheet" href="/src/styles/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
-    <script src=""></script>
-    <title>Productos</title>
+    <title>Products</title>
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
   </head>
   <body>
-    <nav>
-      <ul class="lista_nav">
-        <li>
-          <a href="/src/pages/appointment.html" class="enlace_item"
-            >Reserva una cita</a
-          >
-        </li>
-        <li>
-          <a href="/src/pages/services.html" class="enlace_item">Servicios</a>
-        </li>
-        <li>
-          <a href="/src/pages/products.html" class="enlace_item">Productos</a>
-        </li>
-        <li>
-          <a href="/src/pages/index.html" class="enlace_item">Sobre nosotros</a>
-        </li>
-      </ul>
-    </nav>
-
-    <main class="contenedor-productos">
-      <section class="producto">
-        <h2 class="sub_titulo_producto">Pomadas y Ceras</h2>
-        <ul>
-          <li>Pomada clásica para un acabado pulido</li>
-          <li>Cera mate para un look más natural</li>
-          <li>Pomada de fijación fuerte para estilos atrevidos</li>
-        </ul>
-      </section>
-
-      <section class="producto">
-        <h2 class="sub_titulo_producto">
-          Productos para el Cuidado de la Barba
-        </h2>
-        <ul>
-          <li>Aceite para barba con aroma a madera</li>
-          <li>Bálsamo para barba para una hidratación profunda</li>
-          <li>Cepillo de cerdas naturales para dar forma</li>
-        </ul>
-      </section>
-
-      <section class="producto">
-        <h2 class="sub_titulo_producto">Shampoos y Acondicionadores</h2>
-        <ul>
-          <li>Shampoo revitalizante para el cuero cabelludo</li>
-          <li>Acondicionador hidratante para un cabello suave</li>
-          <li>Combo shampoo y acondicionador 2 en 1 para mayor comodidad</li>
-        </ul>
-      </section>
-
-      <section class="producto">
-        <h2 class="sub_titulo_producto">Herramientas de Barbero</h2>
-        <ul>
-          <li>Tijeras de precisión para cortes detallados</li>
-          <li>Máquina de afeitar profesional</li>
-          <li>Cepillos y peines de alta calidad</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2024 Barbería XYZ</p>
-    </footer>
+    <navbar-comp></navbar-comp>
+    <script src="../js/components/navbar.js"></script>
   </body>
 </html>

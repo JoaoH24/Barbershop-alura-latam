@@ -7,29 +7,29 @@ class NavBar extends HTMLElement {
     this.innerHTML = /* html */ `
       <nav>
         <div>
-          <a href="./index.html">
+          <a href="/index.html">
             <img src="/assets/images/Logo.png" alt="Logo empresarial" class="logo" />
           </a>
         </div>
         <div>
           <ul>
-            <li class="item-navbar"><a href="./index.html">Home</a></li>
-            <li class="item-navbar"><a href="./pages/services.html">Services</a></li>
+            <li class="item-navbar"><a href="/index.html">Home</a></li>
+            <li class="item-navbar"><a href="/pages/services.html">Services</a></li>
             <li class="item-navbar">
-              <a href="./pages/about.html">About Us</a>
+              <a href="/pages/about.html">About Us</a>
             </li>
-            <li class="item-navbar"><a href="./pages/blog.html">Blog</a></li>
+            <li class="item-navbar"><a href="/pages/blog.html">Blog</a></li>
             <li class="item-navbar">
-              <a href="./pages/contact.html">Contact Us</a>
+              <a href="/pages/contact.html">Contact Us</a>
             </li>
             <li class="item-navbar">
-              <a href="./pages/products.html">Products</a>
+              <a href="/pages/products.html">Products</a>
             </li>
           </ul>
         </div>
         <div>
           <button>
-            <a href="./pages/appointment.html">BOOK APPOINTMENT</a>
+            <a href="/pages/appointment.html">BOOK APPOINTMENT</a>
           </button>
         </div>
       </nav>    `;

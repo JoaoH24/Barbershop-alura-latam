@@ -6,18 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="/assets/icons/poste-de-barbero.png"
+      href="/assets/favicons/poste-de-barbero.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/banner.css" />
+    <link rel="stylesheet" href="./styles/services.css" />
     <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
-      rel="stylesheet"
-    />
-    <script src="./js/components/navbar.js"></script>
     <title>The Gentleman's Cut</title>
   </head>
   <body>
@@ -25,71 +20,125 @@
       <navbar-comp></navbar-comp>
     </head>
     <section>
-      <div class="banner"></div>
+      <banner-comp image-banner="#" text-banner="Hola mundo"></banner-comp>
     </section>
     <section>
-      <!-- componente  -->
-      <div>
-        <img src="#" alt="gillete" />
-        <p>2500</p>
-        <p>SHAVES</p>
-      </div>
-      <div>
-        <img src="#" alt="gillete" />
-        <p>4500</p>
-        <p>HAIRCUTS</p>
-      </div>
-      <div>
-        <img src="#" alt="gillete" />
-        <p>2500</p>
-        <p>OPEN SHOPS</p>
-      </div>
+      <h2>OUR TREATMENT</h2>
+      <h3>SERVICES</h3>
+      <service-comp
+        img-service="icon scissors.png"
+        name-service="HAIRCUT & BEARD TRIM"
+        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+      ></service-comp>
+      <service-comp
+        img-service="icon beard.png"
+        name-service="HAIRCUT & BEARD TRIM"
+        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+      ></service-comp>
+      <service-comp
+        img-service="icon facial.png"
+        name-service="HAIRCUT & BEARD TRIM"
+        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+      ></service-comp>
+      <service-comp
+        img-service="icon hair.png"
+        name-service="HAIRCUT & BEARD TRIM"
+        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+      ></service-comp>
+      <service-comp
+        img-service="icon mustache.png"
+        name-service="HAIRCUT & BEARD TRIM"
+        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+      ></service-comp>
+      <service-comp
+        img-service="icon razor 2.png"
+        name-service="HAIRCUT & BEARD TRIM"
+        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+      ></service-comp>
     </section>
 
     <section>
-      <!-- Componente-->
-      <div>
-        <h3>25% DISCOUNT</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-          eligendi eum. Cumque autem quasi necessitatibus inventore minus nisi
-          nesciunt nostrum accusamus eos iure consequuntur dolorem unde, sed
-          impedit repudiandae laboriosam.
-        </p>
-        <button>BOOK NOW</button>
-      </div>
-      <div>
-        <img src="#" alt="" />
-      </div>
+      <service-counter
+        img-service="icon razor 1.png"
+        counter="2500"
+        name-service="SHAVES"
+      ></service-counter>
+      <service-counter
+        img-service="icon scissors.png"
+        counter="4500"
+        name-service="HAIRCUTS"
+      ></service-counter>
+      <service-counter
+        img-service="icon barbershop.png"
+        counter="23"
+        name-service="OPEN SHOPS"
+      ></service-counter>
     </section>
 
     <section>
-      <div>
-        <h2>BRANDS WE CARRY</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-          saepe, natus dolorum sapiente facere dignissimos repellendus. Nihil,
-          quae magni impedit suscipit id nemo omnis soluta! Tempora natus
-          distinctio voluptatem nesciunt?
-        </p>
-      </div>
-      <div>
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-        <img src="#" alt="" />
-      </div>
+      <promotion-tag
+        name-promo="25% DISCOUNT"
+        description-promo="Beatiful promotions for the mens day"
+        image-promo="#"
+      ></promotion-tag>
     </section>
+
     <section>
-      <div>VISIT US AT OUR BRANCHES</div>
-      <iframe src="#" frameborder="0"></iframe>
+      <h2>WHAT PEOPLE SAY ABOUT US</h2>
+      <h2>CLIENT REVIEWS</h2>
+      <customer-review
+        image-customer="#"
+        review="Good Service"
+        name="GLEN SPARKLE, MIAMI"
+      ></customer-review>
     </section>
+
+    <section>
+      <brands-tag></brands-tag>
+    </section>
+
+    <section>
+      <h2>CONTACT US</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, minus
+        culpa. Quos laborum recusandae accusamus. Rerum assumenda delectus
+        soluta cumque inventore ea accusamus culpa! Recusandae, eaque. Voluptas
+        eligendi necessitatibus sapiente!
+      </p>
+      <div>
+        <img src="" alt="" />
+        <h4>ADDRESS</h4>
+        <address>304 North Cardinal St.</address>
+        <address>Dorchester Center, MA 02124</address>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <h4>EMAIL</h4>
+        <a>info@companu.com</a>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <h4>PHONE</h4>
+        <p>(+63) 555 1212</p>
+        <p>(+63) 555 1212</p>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <h4>WORKING HOURS</h4>
+        <p>Mon - Fri: 10am - 6pm</p>
+        <p>Sat - Sun: 10am - 6pm</p>
+      </div>
+    </section>
+
     <footer>
       <div>&copy; Todos los izquierdos reservados</div>
     </footer>
+    <script src="./js/components/navbar.js"></script>
+    <script src="./js/components/banner.js"></script>
+    <script src="./js/components/services.js"></script>
+    <script src="./js/components/service_counter.js"></script>
+    <script src="./js/components/promotion-tag.js"></script>
+    <script src="./js/components/customer_review.js"></script>
+    <script src="./js/components/brands-tag.js"></script>
   </body>
 </html>
