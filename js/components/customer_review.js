@@ -11,11 +11,11 @@ class customerReview extends HTMLElement {
       /* HTML */
       `
         <img
-          src="/assets/images/customers/${this.imageCustomer}"
+          src="/assets/images/photos/${this.imageCustomer}"
           alt="customer-image"
         />
-        <p>${this.reviewCustomer}</p>
-        <p>${this.nameCustomer}</p>
+        <p class="inter-regular">${this.reviewCustomer}</p>
+        <p class="inter-regular">${this.nameCustomer}</p>
       `;
   }
 }

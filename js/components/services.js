@@ -16,8 +16,10 @@ class Service extends HTMLElement {
             src="./assets/images/icons/${this.imageService}"
             alt="${this.imageService}"
           />
-          <h4 class="name-service">${this.nameService}</h4>
-          <p class="description-service">${this.descriptionService}</p>
+          <h4 class="name-service abril-regular">${this.nameService}</h4>
+          <p class="description-service inter-regular">
+            ${this.descriptionService}
+          </p>
         </div>
       `;
   }

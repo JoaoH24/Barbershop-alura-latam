@@ -10,11 +10,15 @@ class promotionTag extends HTMLElement {
       /* HTML */
       `
         <div>
-          <h3>${this.namePromo}</h3>
-          <p>${this.descriptionPromo}</p>
+          <h4 class="abril-regular">${this.namePromo}</h4>
+          <p class="inter-regular">${this.descriptionPromo}</p>
+          <button class="inter-regular">Book now</button>
         </div>
         <div>
-          <img src="./assets/images/photos/" alt="image promotion" />
+          <img
+            src="./assets/images/photos/${this.imagePromo}"
+            alt="image promotion"
+          />
         </div>
       `;
   }

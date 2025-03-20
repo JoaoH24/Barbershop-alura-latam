@@ -8,7 +8,7 @@ class brandsTag extends HTMLElement {
 
     for (let i = 1; i < 6; i++) {
       imagesHTML += /* HTML */ `<img
-        src="/assets/images/brand-${i}.jpg"
+        src="/assets/images/brands/brand-${i}.png"
         alt="brand-${i}"
       />`;
     }
@@ -17,8 +17,8 @@ class brandsTag extends HTMLElement {
       /* HTML */
       `
         <div>
-          <h2>BRANDS WE CARRY</h2>
-          <p>
+          <h2 class="abril-regular">BRANDS WE CARRY</h2>
+          <p class="inter-regular">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Repudiandae saepe, natus dolorum sapiente facere dignissimos
             repellendus. Nihil, quae magni impedit suscipit id nemo omnis

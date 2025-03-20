@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./styles/banner.css" />
     <link rel="stylesheet" href="./styles/services.css" />
     <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
     <title>The Gentleman's Cut</title>
   </head>
   <body>
@@ -23,8 +24,8 @@
       <banner-comp image-banner="#" text-banner="Hola mundo"></banner-comp>
     </section>
     <section>
-      <h2>OUR TREATMENT</h2>
-      <h3>SERVICES</h3>
+      <p class="inter-regular">OUR TREATMENT</p>
+      <h2 class=".abril-fatface-regular">SERVICES</h2>
       <service-comp
         img-service="icon scissors.png"
         name-service="HAIRCUT & BEARD TRIM"
@@ -78,16 +79,26 @@
     <section>
       <promotion-tag
         name-promo="25% DISCOUNT"
-        description-promo="Beatiful promotions for the mens day"
-        image-promo="#"
+        description-promo="Queremos homenajear a todos los caballeros con promociones especiales que los harán lucir impecables. Porque mereces verte y sentirte increíble, celebra tu día con nosotros."
+        image-promo="model_barber.jpg"
       ></promotion-tag>
     </section>
 
     <section>
-      <h2>WHAT PEOPLE SAY ABOUT US</h2>
-      <h2>CLIENT REVIEWS</h2>
+      <p class="inter-regular">WHAT PEOPLE SAY ABOUT US</p>
+      <h4 class="abril-regular">CLIENT REVIEWS</h4>
       <customer-review
-        image-customer="#"
+        image-customer="client_1_cut.jpg"
+        review="Good Service"
+        name="GLEN SPARKLE, MIAMI"
+      ></customer-review>
+      <customer-review
+        image-customer="client_2_cut.jpg"
+        review="Good Service"
+        name="GLEN SPARKLE, MIAMI"
+      ></customer-review>
+      <customer-review
+        image-customer="client_3_cut.jpg"
         review="Good Service"
         name="GLEN SPARKLE, MIAMI"
       ></customer-review>
@@ -98,40 +109,17 @@
     </section>
 
     <section>
-      <h2>CONTACT US</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, minus
-        culpa. Quos laborum recusandae accusamus. Rerum assumenda delectus
-        soluta cumque inventore ea accusamus culpa! Recusandae, eaque. Voluptas
-        eligendi necessitatibus sapiente!
-      </p>
-      <div>
-        <img src="" alt="" />
-        <h4>ADDRESS</h4>
-        <address>304 North Cardinal St.</address>
-        <address>Dorchester Center, MA 02124</address>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <h4>EMAIL</h4>
-        <a>info@companu.com</a>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <h4>PHONE</h4>
-        <p>(+63) 555 1212</p>
-        <p>(+63) 555 1212</p>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <h4>WORKING HOURS</h4>
-        <p>Mon - Fri: 10am - 6pm</p>
-        <p>Sat - Sun: 10am - 6pm</p>
-      </div>
+      <contact-comp
+        text-description="Estamos aquí para brindarte el mejor servicio y asesorarte en tu estilo. Si tienes preguntas, deseas agendar una cita o simplemente quieres conocer más sobre nuestros servicios, no dudes en contactarnos."
+        addres-icon="icon location"
+        email-icon="icon envelope"
+        phone-icon="icon phone"
+        work-icon="icon clock"
+      ></contact-comp>
     </section>
 
     <footer>
-      <div>&copy; Todos los izquierdos reservados</div>
+      <div class="inter-regular">&copy; Todos los izquierdos reservados</div>
     </footer>
     <script src="./js/components/navbar.js"></script>
     <script src="./js/components/banner.js"></script>
@@ -140,5 +128,6 @@
     <script src="./js/components/promotion-tag.js"></script>
     <script src="./js/components/customer_review.js"></script>
     <script src="./js/components/brands-tag.js"></script>
+    <script src="./js/components/contact.js"></script>
   </body>
 </html>

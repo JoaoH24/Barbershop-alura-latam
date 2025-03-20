@@ -15,8 +15,8 @@ class serviceCounter extends HTMLElement {
             src="./assets/images/icons/${this.serviceImage}"
             alt="icon-service"
           />
-          <p>${this.counter}</p>
-          <p>${this.nameService}</p>
+          <h4 class="abril-regular">${this.nameService}</h4>
+          <p class="abril-regular">${this.counter}</p>
         </div>
       `;
   }
