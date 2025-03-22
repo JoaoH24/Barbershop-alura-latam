@@ -5,31 +5,31 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = /* html */ `
-      <nav>
+      <nav class="navbar">
         <div>
           <a href="/index.html">
             <img src="/assets/images/Logo.png" alt="Logo empresarial" class="logo" />
           </a>
         </div>
         <div>
-          <ul>
-            <li class="item-navbar"><a href="/index.html">Home</a></li>
-            <li class="item-navbar"><a href="/pages/services.html">Services</a></li>
+          <ul class="inter-regular list-navbar">
+            <li class="item-navbar"><a class="links-navbar" href="/index.html">Home</a></li>
+            <li class="item-navbar"><a class="links-navbar" href="/pages/services.html">Services</a></li>
             <li class="item-navbar">
-              <a href="/pages/about.html">About Us</a>
+              <a class="links-navbar" href="/pages/about.html">About Us</a>
             </li>
-            <li class="item-navbar"><a href="/pages/blog.html">Blog</a></li>
+            <li class="item-navbar"><a class="links-navbar" href="/pages/blog.html">Blog</a></li>
             <li class="item-navbar">
-              <a href="/pages/contact.html">Contact Us</a>
+              <a class="links-navbar" href="/pages/contact.html">Contact Us</a>
             </li>
             <li class="item-navbar">
-              <a href="/pages/products.html">Products</a>
+              <a class="links-navbar" href="/pages/products.html">Products</a>
             </li>
           </ul>
         </div>
         <div>
-          <button>
-            <a href="/pages/appointment.html">BOOK APPOINTMENT</a>
+          <button class="book-appointment">
+            <a class="inter-regular links-navbar" href="/pages/appointment.html">BOOK APPOINTMENT</a>
           </button>
         </div>
       </nav>    `;

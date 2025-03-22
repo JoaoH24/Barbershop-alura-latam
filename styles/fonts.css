@@ -13,3 +13,22 @@
   font-weight: 400;
   font-style: normal;
 }
+
+.title-container {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.sub-title {
+  color: #e9c664;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+.title {
+  color: white;
+  font-size: 34px;
+  margin: 0;
+  text-align: center;
+}

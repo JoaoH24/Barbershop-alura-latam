@@ -1,0 +1,10 @@
+.review-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+
+.client-image {
+  width: 100px;
+  border-style: none;
+  border-radius: 80px;
+}

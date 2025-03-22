@@ -11,6 +11,7 @@ class customerReview extends HTMLElement {
       /* HTML */
       `
         <img
+          class="client-image"
           src="/assets/images/photos/${this.imageCustomer}"
           alt="customer-image"
         />

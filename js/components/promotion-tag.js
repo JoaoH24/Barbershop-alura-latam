@@ -16,6 +16,7 @@ class promotionTag extends HTMLElement {
         </div>
         <div>
           <img
+            class="image-promo"
             src="./assets/images/photos/${this.imagePromo}"
             alt="image promotion"
           />

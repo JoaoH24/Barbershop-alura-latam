@@ -11,7 +11,7 @@ class Banner extends HTMLElement {
       `
         <div class="banner">
           <img src="/assets/images/${this.imageBanner}" alt="image on banner" />
-          <h2>${this.textBanner}</h2>
+          <h1>${this.textBanner}</h1>
         </div>
       `;
   }

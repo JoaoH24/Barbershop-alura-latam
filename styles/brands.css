@@ -1,0 +1,17 @@
+.brands-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  column-gap: 0.1rem;
+  background-color: black;
+  color: white;
+}
+
+.grid-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 4fr));
+  justify-content: space-around;
+}
+
+.image-brands {
+  width: 100px;
+}

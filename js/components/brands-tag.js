@@ -6,8 +6,9 @@ class brandsTag extends HTMLElement {
   connectedCallback() {
     let imagesHTML = "";
 
-    for (let i = 1; i < 6; i++) {
+    for (let i = 1; i < 9; i++) {
       imagesHTML += /* HTML */ `<img
+        class="image-brands"
         src="/assets/images/brands/brand-${i}.png"
         alt="brand-${i}"
       />`;
@@ -25,7 +26,7 @@ class brandsTag extends HTMLElement {
             soluta! Tempora natus distinctio voluptatem nesciunt?
           </p>
         </div>
-        <div>${imagesHTML}</div>
+        <div class="grid-images">${imagesHTML}</div>
       `;
   }
 }

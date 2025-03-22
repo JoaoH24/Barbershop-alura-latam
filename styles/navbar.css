@@ -1,9 +1,9 @@
-nav {
+.navbar {
   background-image: url(../assets/images/photos/main-background.jpg);
   background-size: cover;
   background-position: center center;
   display: flex;
-  position: fixed;
+  position: fixed; /*review*/
   top: 0;
   left: 0;
   right: 0;
@@ -13,21 +13,29 @@ nav {
   background-attachment: fixed;
   color: white;
 }
-ul {
+
+.list-navbar {
   list-style: none;
   display: flex;
   gap: 15px;
 }
-a {
+
+.links-navbar {
   color: white;
   text-decoration: none;
 }
-button {
-  background-color: #ff6600;
-  border: none;
+.book-appointment {
+  background-color: transparent;
+  border-style: solid;
+  border-color: #e9c664;
   padding: 10px 15px;
   cursor: pointer;
 }
+
+.book-appointment:hover {
+  background-color: rgb(233, 198, 100, 0.8);
+}
+
 .logo {
   height: 4rem;
 }

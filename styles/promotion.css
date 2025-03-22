@@ -1,0 +1,8 @@
+.promotion-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+}
+
+.image-promo {
+  width: 40rem;
+}

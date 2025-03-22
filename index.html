@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/banner.css" />
     <link rel="stylesheet" href="./styles/services.css" />
+    <link rel="stylesheet" href="./styles/service-counter.css" />
+    <link rel="stylesheet" href="./styles/promotion.css" />
+    <link rel="stylesheet" href="./styles/reviews.css" />
+    <link rel="stylesheet" href="./styles/brands.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
     <link rel="stylesheet" href="./styles/normalize.css" />
     <link rel="stylesheet" href="./styles/fonts.css" />
     <title>The Gentleman's Cut</title>
@@ -23,42 +28,47 @@
     <section>
       <banner-comp image-banner="#" text-banner="Hola mundo"></banner-comp>
     </section>
-    <section>
-      <p class="inter-regular">OUR TREATMENT</p>
-      <h2 class=".abril-fatface-regular">SERVICES</h2>
-      <service-comp
-        img-service="icon scissors.png"
-        name-service="HAIRCUT & BEARD TRIM"
-        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
-      ></service-comp>
-      <service-comp
-        img-service="icon beard.png"
-        name-service="HAIRCUT & BEARD TRIM"
-        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
-      ></service-comp>
-      <service-comp
-        img-service="icon facial.png"
-        name-service="HAIRCUT & BEARD TRIM"
-        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
-      ></service-comp>
-      <service-comp
-        img-service="icon hair.png"
-        name-service="HAIRCUT & BEARD TRIM"
-        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
-      ></service-comp>
-      <service-comp
-        img-service="icon mustache.png"
-        name-service="HAIRCUT & BEARD TRIM"
-        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
-      ></service-comp>
-      <service-comp
-        img-service="icon razor 2.png"
-        name-service="HAIRCUT & BEARD TRIM"
-        description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
-      ></service-comp>
+    <section class="service-section">
+      <div class="title-container">
+        <p class="inter-regular sub-title">OUR TREATMENT</p>
+        <h2 class="abril-regular title">SERVICES</h2¿>
+      </div>
+
+      <div class="service-item">
+        <service-comp
+          img-service="icon scissors.png"
+          name-service="HAIRCUT & BEARD TRIM"
+          description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        ></service-comp>
+        <service-comp
+          img-service="icon beard.png"
+          name-service="HAIRCUT & BEARD TRIM"
+          description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        ></service-comp>
+        <service-comp
+          img-service="icon facial.png"
+          name-service="HAIRCUT & BEARD TRIM"
+          description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        ></service-comp>
+        <service-comp
+          img-service="icon hair.png"
+          name-service="HAIRCUT & BEARD TRIM"
+          description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        ></service-comp>
+        <service-comp
+          img-service="icon mustache.png"
+          name-service="HAIRCUT & BEARD TRIM"
+          description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        ></service-comp>
+        <service-comp
+          img-service="icon razor 2.png"
+          name-service="HAIRCUT & BEARD TRIM"
+          description-service="Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        ></service-comp>
+      </div>
     </section>
 
-    <section>
+    <section class="service-counter-sec-container">
       <service-counter
         img-service="icon razor 1.png"
         counter="2500"
@@ -81,31 +91,37 @@
         name-promo="25% DISCOUNT"
         description-promo="Queremos homenajear a todos los caballeros con promociones especiales que los harán lucir impecables. Porque mereces verte y sentirte increíble, celebra tu día con nosotros."
         image-promo="model_barber.jpg"
+        class="promotion-container"
       ></promotion-tag>
     </section>
 
     <section>
-      <p class="inter-regular">WHAT PEOPLE SAY ABOUT US</p>
-      <h4 class="abril-regular">CLIENT REVIEWS</h4>
-      <customer-review
-        image-customer="client_1_cut.jpg"
-        review="Good Service"
-        name="GLEN SPARKLE, MIAMI"
-      ></customer-review>
-      <customer-review
-        image-customer="client_2_cut.jpg"
-        review="Good Service"
-        name="GLEN SPARKLE, MIAMI"
-      ></customer-review>
-      <customer-review
-        image-customer="client_3_cut.jpg"
-        review="Good Service"
-        name="GLEN SPARKLE, MIAMI"
-      ></customer-review>
+      <div class="review-title">
+        <p class="inter-regular">WHAT PEOPLE SAY ABOUT US</p>
+        <h4 class="abril-regular">CLIENT REVIEWS</h4>
+      </div>
+
+      <div class="review-items">
+        <customer-review
+          image-customer="client_1_cut.jpg"
+          review="Good Service"
+          name="GLEN SPARKLE, MIAMI"
+        ></customer-review>
+        <customer-review
+          image-customer="client_2_cut.jpg"
+          review="Good Service"
+          name="GLEN SPARKLE, MIAMI"
+        ></customer-review>
+        <customer-review
+          image-customer="client_3_cut.jpg"
+          review="Good Service"
+          name="GLEN SPARKLE, MIAMI"
+        ></customer-review>
+      </div>
     </section>
 
     <section>
-      <brands-tag></brands-tag>
+      <brands-tag class="brands-container"></brands-tag>
     </section>
 
     <section>

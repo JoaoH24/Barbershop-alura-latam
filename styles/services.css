@@ -1,12 +1,37 @@
+.service-section {
+  background-image: url(/assets/images/photos/distintivo_4_blur.jpg);
+  background-size: cover;
+  padding: 0.1px;
+  min-height: 500px;
+  max-width: 940;
+}
+
+.service-section::before {
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Fondo semitransparente */
+  backdrop-filter: blur(10px); /* Aplicar desenfoque */
+}
+
+.service-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between;
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
 .service {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 17em;
-  height: 17em;
+  width: 17rem;
+  height: 17rem;
   padding: 1.4rem;
   background-color: transparent;
-  border-color: #ff6600;
+  border-color: #e9c664;
   border-width: 3.2px;
   border-style: solid;
   justify-content: space-around;
@@ -14,7 +39,8 @@
 }
 
 .icon-service {
-  width: 4rem;
+  height: 50px;
+  width: 50px;
 }
 
 .name-service {
@@ -22,10 +48,12 @@
   text-align: center;
   margin-block-start: 0.5em;
   margin-block-end: 0.5em;
+  color: white;
 }
 
 .description-service {
   margin: 0;
   text-align: center;
   font-size: 0.92rem;
+  color: white;
 }
